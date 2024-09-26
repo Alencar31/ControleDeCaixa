@@ -1,6 +1,73 @@
-/* 
-    Created on : 23 de set. de 2024, 17:49:45
-    Author     : alenc
-*/
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    width:90%;
+    background-color: #00b3b3;
+    padding: 10px
+}
 
+header h1 {
+    text-align: center;
+}
+
+nav {
+    width:90%;
+    background-color: #3377ff; 
+    padding: 10px;
+    display: flex;
+    align-items: center
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;    
+}
+
+main {
+    width:90%; 
+    height: 500px;
+    padding: 10px;
+    background-color: #3333cc;
+}
+
+footer {
+    width:90%;
+    padding: 10px;
+    background-color: #00b3b3;    
+}
+
+table {
+    width:90%;
+    border: 1px solid black;
+    align-items: center;
+}
+
+tr th {
+    border: 1px solid black;
+    background-color: #3377ff;
+} 
+
+td {
+    border: 1px solid black;
+    align-items: center;
+    background-color: cyan;
+}
+
+.manut {
+    width:90%;
+    padding: 10px;
+    background-color: graytext;
+}
+
+.btn_Manut {
+    background-color: #3333cc;
+    color: white;
+}
