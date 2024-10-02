@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Exclusão de Lançamento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Styles.css"/>
+    </head>
+    <body>    
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Exclusão de Lançamento</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="id" id="id" class="inputUser" required>
+                        <label for="id" class="labelInput"> Id: </label>
+                    </div>   
+                    <br>                    
+                    <div class="inputBox">
+                        <input type="text" name="conta" id="conta" class="inputUser" required>                        
+                        <label for="conta" class="labelInput"> Conta: </label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="valor" id="valor" class="inputUser" required>                        
+                        <label for="valor" class="labelInput"> Valor: </label>
+                    </div>
+                    <br>
+                    <p>Natureza:</p> 
+                    <br>
+                    <input type="radio" id="credito" name="debcre" value="credito" required>
+                    <label for="credito">Crédito</label>
+                    <br>
+                    <input type="radio" id="debito" name="debcre" value="debito" required>
+                    <label for="debito">Débito</label>   
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="historico" id="historico" class="inputUser" required>                        
+                        <label for="historico" class="labelInput"> Histórico: </label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="complemento" id="complemento" class="inputUser" required>                        
+                        <label for="complemento" class="labelInput"> Complemento: </label>
+                    </div>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="status" id="status" class="inputUser" required>                        
+                        <label for="status" class="labelInput"> Status: </label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="confirm">
+                        <button class="btn_Manut">Confirmar</button>
+                        <a href="lancamento.html"><button class="btn_Manut">Sair</button></a>
+                    </div>                  
+                </fieldset>
+            </form> 
+        </div>
+    </body>
+</html>
